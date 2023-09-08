@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-08 05:35:23 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwNDI1OzIwMjMtMDktMDg7MDU6MjY6NDUgcC4gbS47Mjg0OA=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwNDI1OzIwMjMtMDktMDg7MDU6MzU6MjMgcC4gbS47MTsyOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <declare name="direcci&#243;n" type="String" array="False" size=""/>
+            <declare name="tipo" type="String" array="False" size=""/>
+            <declare name="promedio" type="Real" array="False" size=""/>
+            <declare name="prepa" type="String" array="False" size=""/>
+            <output expression="&quot;captura tus apellidos&quot;" newline="True"/>
+            <input variable="apellidos"/>
+            <output expression="&quot;captura tu nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="&quot;captura tu edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="&quot;captura tu direcci&#243;n&quot;" newline="True"/>
+            <input variable="direcci&#243;n"/>
+            <output expression="&quot;captura tu tipo&quot;" newline="True"/>
+            <input variable="tipo"/>
+            <output expression="&quot;captura tu promedio&quot;" newline="True"/>
+            <input variable="promedio"/>
+            <output expression="&quot;captura tu prepa&quot;" newline="True"/>
+            <input variable="prepa"/>
+            <output expression="apellidos" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="edad" newline="True"/>
+            <output expression="direcci&#243;n" newline="True"/>
+            <output expression="tipo" newline="True"/>
+            <output expression="promedio" newline="True"/>
+            <output expression="prepa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
